@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'rentalProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Local instance MySQL_Sanchez',
+        'NAME': 'newdjango',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',  # or the hostname where your MySQL server is running
-        'PORT': '3306',      # or the port on which your MySQL server is listening
+        'PASSWORD': 'Iamawesome45',
+        'HOST': '127.0.0.1',  
+        'PORT': '3306',      
     }
 }
 
